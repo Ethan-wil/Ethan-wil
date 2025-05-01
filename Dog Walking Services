@@ -1,0 +1,82 @@
+
+
+---
+
+Website Code (HTML + CSS)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DogWalkingServices</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #fefefe;
+      color: #333;
+    }
+    header {
+      background: #4CAF50;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    h2 {
+      color: #4CAF50;
+    }
+    .contact {
+      background: #f1f1f1;
+      padding: 1rem;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #eee;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>DogWalkingServices</h1>
+    <p>Reliable. Friendly. Professional Dog Walking.</p>
+  </header>
+
+  <section>
+    <h2>About Us</h2>
+    <p>We’re passionate dog lovers offering safe and fun walks for your furry friends in the Tampa Bay area. Available 7 days a week!</p>
+  </section>
+
+  <section>
+    <h2>Our Services</h2>
+    <ul>
+      <li>30-minute walk – $20</li>
+      <li>60-minute walk – $35</li>
+      <li>Group walks & solo walks available</li>
+      <li>Pet check-ins & feeding</li>
+    </ul>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: dogwalkingservices@example.com</p>
+    <p>Phone: (123) 456-7890</p>
+    <p>Serving: Tampa, Land O’ Lakes, Lutz</p>
+  </section>
+
+  <footer>
+    &copy; 2025 DogWalkingServices. All rights reserved.
+  </footer>
+
+</body>
+ 
+
